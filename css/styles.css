@@ -6,14 +6,18 @@ width:1200px;
 .section{
 padding-top:94px;
 padding-bottom:94px;
-padding-left:120px;
+display:flex;
+justify-content: center;
+}
+
+.webnavi-parent{
+Border-bottom:1px solid #ECECEC;
 }
 
 .webnavi{
 display:flex;
 justify-content: space-around;
 height:80px;
-Border-bottom:1px solid #ECECEC;
 }
 
 .navigation{
@@ -118,7 +122,7 @@ top: 45px;
 .portfolio2::after{
 content:"";
 
-width: 53px;
+width: 58px;
 height: 4px;
 
 background: #2196F3;
@@ -140,7 +144,7 @@ font-size: 14px;
 }
 
 .contact-menu a{
-    margin-right: 20px; 
+margin-right: 20px; 
 }
 
 .contact-menu-mail{
@@ -188,7 +192,6 @@ linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
 object-fit: cover;
 background-repeat: no-repeat;
 background-size:cover;
-
 }
 
 .theme{
@@ -215,7 +218,6 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-
 .theme-button{
 width: 200px;
 height: 50px;
@@ -237,14 +239,11 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-
-
 /*Description*/
 .description{
 display:flex;
 justify-content:space-between;
 }
-
 
 .p1{
 width: 270px;
@@ -295,8 +294,8 @@ color: #757575;
 
 /*What we do?*/
 .what-we-do-section{
-    padding-top:0px;
-    padding-bottom:0px;
+padding-top:0px;
+padding-bottom:0px;
 }
 
 .title-what-we-do{
@@ -392,7 +391,6 @@ color: #212121;
 display:flex;
 justify-content:center;
 }
-
 
 .team-container {
 display:flex;
@@ -498,29 +496,29 @@ transition-duration: 250ms;
 
 /*Our clients*/
 .our-clients{
-    display:flex;
-    align-items: center;
+display:flex;
+align-items: center;
 }
 
 .h-clients{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;   
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;   
 }
 
 .clients-list{
-    list-style: none;
-    display:flex;
-    padding-left:0;
+list-style: none;
+display:flex;
+padding-left:0;
 }
 
 .clients-list li{
-    padding-right:20px;
+padding-right:20px;
 }
 
 .icon-client{
@@ -557,9 +555,9 @@ transition-duration: 250ms;
 .footer{
 height: 252px;
 background: #2F303A;
-padding-left: 120px;
-padding-top: 50px;
 display:flex;
+align-items: center;
+justify-content: center;
 }
 
 .join-us{
@@ -572,7 +570,7 @@ padding-bottom: 25px;
 }
 
 .social-list-footer{
-    padding:0;
+padding:0;
 }
 
 .webstudio-footer{
@@ -601,8 +599,6 @@ display:flex;
 flex-direction: column;
 }
 
-
-
 .address{
 width: 246px;
 height: 21px;
@@ -615,7 +611,6 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 margin-bottom:9px;
 }
-
 
 .mail-footer{
 width: 231px;
@@ -643,12 +638,12 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .social-list-footer {
-    list-style: none;
-    display:flex;
+list-style: none;
+display:flex;
 }
 
 .social-list-footer li{
-    padding-right:10px;
+padding-right:10px;
 }
 
 
@@ -664,7 +659,7 @@ color: #FFFFFF;
 }
 
 .icon-footer {
-    fill:#FFFFFF
+fill:#FFFFFF
 }
 
 .social-list-link-footer{
@@ -689,31 +684,35 @@ transition-duration: 250ms;
 /*Portfolio*/
 /*Buttons*/
 .portfolio-buttons{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+display:flex;
+justify-content:center;
+align-items:center;
 }
+
 .buttons{
-    padding-top: 94px;
-    
+padding-top: 94px;
+display:flex;
+justify-content:center;
+align-items:center;
 }
+
 .portfolio-buttons button{
-    height: 38px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-   
-    color: #212121;
-    background: #F5F4FA;
-    border-radius: 4px;
-    
-    cursor:pointer;
+height: 38px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+
+cursor:pointer;
 }
 
 .portfolio-buttons button:hover{
@@ -726,23 +725,23 @@ transition-duration: 250ms;
 }
 
 .all{
-    width: 121px;
+width: 121px;
 }
 
 .sites{
-    width: 93px;    
+width: 93px;    
 }
 
 .apps{
-    width: 114px;
+width: 114px;
 }
 
 .designs{
-    width: 91px;
+width: 91px;
 }
 
 .marketings{
-    width: 121px;   
+width: 121px;   
 }
 
 .pics-list{
@@ -761,7 +760,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 370px;
-height: 294px;
+height: 297px;
 
 transform: translateY(100%);
 
@@ -798,52 +797,61 @@ padding:5px;
 }
 
 figure{
-    margin:0;
+margin:0;
 }
 
 
 .portfolio-pics figure{
-    width: 370px;
-    height: 404px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #EEEEEE;
+width: 370px;
+height: 404px;
+background: #FFFFFF;
+border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-figure:hover{
-    box-shadow: 
-    0px 1px 1px rgba(0, 0, 0, 0.12), 
-    0px 4px 4px rgba(0, 0, 0, 0.06), 
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms; 
+box-shadow: 
+0px 1px 1px rgba(0, 0, 0, 0.12), 
+0px 4px 4px rgba(0, 0, 0, 0.06), 
+1px 4px 6px rgba(0, 0, 0, 0.16);
+transition: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms; 
+}
+
+.portfolio-figcaption{
+padding: 20px 24px 20px 24px;
 }
 
 .portfolio-title{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;  
-    color: #212121;    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;  
+color: #212121;
+margin:0;
 }
+
 .portfolio-description{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: #757575;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+margin:0;
 }
 
 /* Modal Window*/
 .backdrop{
 background: rgba(0, 0, 0, 0.2); 
+
 width:100%;
 height:100%;
+
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal{
@@ -862,23 +870,32 @@ transform: translate(-50%, -50%);
 
 display:flex;
 justify-content: flex-end;
+
+transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+transform: translate3d(0, 0, 0);
+opacity: 1;
 }
 
 .close-btn{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;  
-    border-radius: 50%;   
+position: absolute;
+width: 30px;
+height: 30px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;  
+border-radius: 50%; 
 }
 
 .is-hidden{
-    opacity:0;
-    visibility:hidden;
-    pointer-events: none;
+opacity:0;
+visibility:hidden;
+pointer-events: none;
+}
+
+.is-hidden .modal{
+transform: translate3d(0 , -2rem, 0);
+opacity: 0;   
 }
 
 
