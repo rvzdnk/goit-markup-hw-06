@@ -463,20 +463,21 @@ height="294"/>
                 <use href="./images/icon.svg#icon-close-button"></use>
             </svg>  
         </button>
-    <form class="form" name="leave-your-data" autocomplete="on" novalidate>
-        <label for="firstname">Imię</label>
-        <input type="text" name="firstname"/>
-        <label for="telephone">Telefon </label>
-        <input type="tel" name="telephone"/>
-        <label for="email">Email</label>
-        <input type="email" name="email"/>
-        <label for="comment">Komentarz</label>
-        <textarea name="comment" rows="4" placeholder="Wprowadź tekst"></textarea>
-        <input type="checkbox" name="user-policy" class="user-policy visually-hidden"/>
-        <label for="user-policy" class="user-policy-text">
-        Oświadczam, iż akceptuję Regulamin i Politykę Prywatności.
-        </label>
-    </form>    
+        <h4 class="form-title">Zostaw swoje dane w formularzu poniżej</h4>
+        <form class="form" name="leave-your-data" autocomplete="on" novalidate>
+            <label for="firstname" class="label"><span>Imię</span></label>
+            <input type="text" name="firstname" class="firstname"/>
+            <label for="telephone" class="label"><span>Telefon</span></label>
+            <input type="tel" name="telephone" class="telephone"/>
+            <label for="email" class="label"><span>Email</span></label>
+            <input type="email" name="email" class="email"/>
+            <label for="comment" class="label"><span>Komentarz</span></label>
+            <textarea name="comment" rows="4" placeholder="Wprowadź tekst" class="comment"></textarea>
+            <input type="checkbox" name="user-policy" class="user-policy visually-hidden"/>
+            <label for="user-policy" class="user-policy-text">
+            Oświadczam, iż akceptuję Regulamin i Politykę Prywatności.
+            </label>
+        </form>    
 </div>
 <script src="./js/modal.js"></script>
 </body>
