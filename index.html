@@ -463,26 +463,20 @@ height="294"/>
                 <use href="./images/icon.svg#icon-close-button"></use>
             </svg>  
         </button>
-    <form name="leave-your-data" autocomplete="on" novalidate>
-        <label>Imię
+    <form class="form" name="leave-your-data" autocomplete="on" novalidate>
+        <label for="firstname">Imię</label>
         <input type="text" name="firstname"/>
-        </label>
-        <label>Telefon
+        <label for="telephone">Telefon </label>
         <input type="tel" name="telephone"/>
-        </label>
-        <label>Email
+        <label for="email">Email</label>
         <input type="email" name="email"/>
-        </label>
-        <label>Komentarz
-        <textarea name="comment" placeholder="Wprowadź tekst">
-        </textarea>
-        </label>
-        <label>
-        <input type="checkbox" name="rules"/>
+        <label for="comment">Komentarz</label>
+        <textarea name="comment" rows="4" placeholder="Wprowadź tekst"></textarea>
+        <input type="checkbox" name="user-policy" class="user-policy visually-hiden"/>
+        <label for="user-policy" class="user-policy-text">
         Oświadczam, iż akceptuję Regulamin i Politykę Prywatności.
         </label>
     </form>    
-</div>
 </div>
 <script src="./js/modal.js"></script>
 </body>

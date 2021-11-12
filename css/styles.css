@@ -898,5 +898,43 @@ transform: translate3d(0 , -2rem, 0);
 opacity: 0;   
 }
 
+/* Modal Form */
 
+.form{
+width:100%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
+.user-policy-text::before{
+content:"";
+
+display:inline-block;
+
+width:16px;
+height:15px;
+
+border-radius: 2px;
+border:1px solid #212121;
+}
+
+.user-policy:checked + .user-policy-text::before{
+background-color: #2196F3;    
+border-radius: 2px;
+background-image: url(../images/checkbox.svg) ;
+border: hidden;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.visually-hidden{
+clip: rect(0 0 0 0); 
+clip-path: inset(50%);
+height: 1px;
+overflow: hidden;
+position: absolute;
+white-space: nowrap; 
+width: 1px;
+}
