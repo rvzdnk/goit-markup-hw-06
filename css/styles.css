@@ -65,7 +65,7 @@ flex-basis: calc(100%/3);
 
 .menu-web li{
 list-style: none;
-margin-right: 20px; 
+padding-right: 20px; 
 }
 
 .menu-web a{
@@ -458,13 +458,17 @@ letter-spacing: 0.03em;
 color: #757575;    
 }
 
-.social-list {
+ul.social-list{
+    padding:0;
+    padding-left:20px;
+}
+
+.social-list{
 list-style: none;
 display:flex;
 justify-content: center;
-padding-left:20px; 
+padding-left:23.5px;
 }
-
 
 .social-icon{
 fill:#AFB1B8
@@ -498,6 +502,7 @@ transition-duration: 250ms;
 .our-clients{
 display:flex;
 align-items: center;
+justify-content: center;
 }
 
 .h-clients{
@@ -519,6 +524,10 @@ padding-left:0;
 
 .clients-list li{
 padding-right:20px;
+}
+
+li.client6{
+padding-right:0;
 }
 
 .icon-client{
@@ -921,8 +930,8 @@ left:0;
 width:100%;
 height:100%;
 
-transition-duration: 250ms;
-transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+transition: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms; 
 
 position:fixed;
 display:flex;
@@ -1037,9 +1046,9 @@ background-repeat: no-repeat;
 background-position-y: center;
 background-position-x: 15px;
 
+transition: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
-transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 
 .telephone{
 width: 448px;
@@ -1067,8 +1076,8 @@ background-repeat: no-repeat;
 background-position-y: center;
 background-position-x: 15px;
 
+transition: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
-transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email{
@@ -1097,8 +1106,8 @@ background-repeat: no-repeat;
 background-position-y: center;
 background-position-x: 15px;
 
+transition: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
-transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment{
@@ -1127,8 +1136,8 @@ border: 1px solid #2196F3;
 box-sizing: border-box;
 border-radius: 4px; 
 
+transition: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
-transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1168,17 +1177,19 @@ background-image: url(../images/checkbox.svg) ;
 border: none;
 background-repeat: no-repeat;
 background-position: center;
+
+transition: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
 }
 
 .visually-hidden{
-position: absolute !important;
-clip: rect(1px 1px 1px 1px);
-clip: rect(1px 1px 1px 1px);
-padding: 0 !important;
-border: 0 !important;
-height: 1px !important;
-width: 1px !important;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+height: 1px;
 overflow: hidden;
+position: absolute;
+white-space: nowrap;
+width: 1px;
 }
 
 .submit-btn{
